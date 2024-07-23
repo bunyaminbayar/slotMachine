@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot Machine Game</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/fav.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body>
+  <!-- Container for fireworks effect -->
+  <div id="fireworksContainer"></div>
+
+  <!-- Container shown when a win occurs -->
+  <div class="winning-container" id="winningCont">
+    <img class="gold-circle" src="assets/images/gold-circle.png" alt="Gold Circle">
+    <div class="winning">
+      <button id="playAgain">Play Again</button>
+    </div>
+  </div>
+
+  <!-- Slot machine and spin button -->
+  <div class="slot-machine-container">
+    <div class="info-text">Winning if at least two symbols next to each other are the same.</div>
+    <div class="slot-machine">
+      <div class="reel" id="reel1"></div>
+      <div class="reel" id="reel2"></div>
+      <div class="reel" id="reel3"></div>
+    </div>
+    <button id="spinButton">Spin</button>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
