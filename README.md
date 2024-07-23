@@ -4,6 +4,11 @@
 
 ### Technology Choices
 
+## DEMO 
+
+https://solodevs.com/portfolio/slot-machine/
+
+
 1. **HTML5**: 
    - Chosen for its simplicity and universality in structuring web pages. HTML5 provides the basic framework and semantics for the slot machine game.
 
@@ -31,7 +36,7 @@
    - Download the ZIP file of the repository and extract it to your desired location.
    - Alternatively, use Git to clone the repository:
      ```bash
-     git clone <repository-url>
+     git clone https://github.com/bunyaminbayar/slotMachine.git
      ```
 
 2. **Navigate to the Project Directory**
@@ -46,9 +51,9 @@
 
 ### Directory Structure
 - `index.html`: The main HTML file that structures the slot machine game.
-- `styles.css`: The CSS file that styles the game.
-- `script.js`: The JavaScript file that contains the game logic.
-- `images/`: A directory containing the images used for symbols and backgrounds.
+- `assets/styles/styles.css`: The CSS file that styles the game.
+- `assets/js/script.js`: The JavaScript file that contains the game logic.
+- `assets/images/`: A directory containing the images used for symbols and backgrounds.
 
 ### Customizing the Game
 - **Symbols**: To change the symbols used in the reels, add or replace images in the `images` directory and update the `symbols` array in `script.js`.
